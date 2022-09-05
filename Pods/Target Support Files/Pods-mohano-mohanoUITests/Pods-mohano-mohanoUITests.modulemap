@@ -1,0 +1,6 @@
+framework module Pods_mohano_mohanoUITests {
+  umbrella header "Pods-mohano-mohanoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
