@@ -1,0 +1,6 @@
+framework module Pods_mohasem {
+  umbrella header "Pods-mohasem-umbrella.h"
+
+  export *
+  module * { export * }
+}

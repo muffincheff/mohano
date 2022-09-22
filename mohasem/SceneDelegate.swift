@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import RxKakaoSDKCommon
+import RxKakaoSDKAuth
+import KakaoSDKAuth
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -18,12 +21,33 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
+       /*
+        // print font names
+        for fontFamily in UIFont.familyNames {
+            for fontName in UIFont.fontNames(forFamilyName: fontFamily) {
+                print(fontName)
+            }
+        }
+        */
+        
+        RxKakaoSDK.initSDK(appKey: "831ca23df98874f6eeb49973a231e5c9")
+        
+        
         let mainVc = MainVc(reactor: MainReactor())
-//        mainVc.view.backgroundColor = .brown
+//        let signinVc = SigninVc(reactor: SigninReactor())
+//        let postsVc = PostsVc(reactor: PostsReactor())
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = mainVc
         window?.windowScene = windowScene
         window?.makeKeyAndVisible()
+    }
+    
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        if let url = URLContexts.first?.url {
+            if (AuthApi.isKakaoTalkLoginUrl(url)) {
+                _ = AuthController.rx.handleOpenUrl(url: url)
+            }
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
