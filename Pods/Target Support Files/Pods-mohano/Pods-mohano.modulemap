@@ -1,6 +1,0 @@
-framework module Pods_mohano {
-  umbrella header "Pods-mohano-umbrella.h"
-
-  export *
-  module * { export * }
-}

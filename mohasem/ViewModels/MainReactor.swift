@@ -16,7 +16,7 @@ class MainReactor: Reactor {
     
     enum Mutation {
         case goHome
-        case goSchedule
+        case goCalendar
         case goProfile
         case none
     }

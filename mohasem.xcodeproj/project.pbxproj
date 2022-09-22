@@ -23,9 +23,30 @@
 		2413911E28C576B900FA1810 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2413911D28C576B900FA1810 /* HomeVc.swift */; };
 		2413912028C5772300FA1810 /* HomeReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2413911F28C5772300FA1810 /* HomeReactor.swift */; };
 		2413912228C577FE00FA1810 /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2413912128C577FE00FA1810 /* Scenes.swift */; };
-		5D8F568AC45F3D845DBF4828 /* Pods_mohano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA83451B4D1784EABC3161C /* Pods_mohano.framework */; };
-		8B6D0F08D806CA7B5DE85EB4 /* Pods_mohano_mohanoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95AD0F89CF8AC704BC7CD4A /* Pods_mohano_mohanoUITests.framework */; };
-		91FAC91AB1BD5FF3AA980DA3 /* Pods_mohanoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124C6439E0372C80C239AAB4 /* Pods_mohanoTests.framework */; };
+		24599F2228C625E800AB62AD /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F2128C625E800AB62AD /* PostView.swift */; };
+		24599F2428C6263500AB62AD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F2328C6263500AB62AD /* Post.swift */; };
+		24599F2828C73E1300AB62AD /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F2728C73E1300AB62AD /* Date+.swift */; };
+		24599F2A28C8224600AB62AD /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F2928C8224600AB62AD /* GroupView.swift */; };
+		24599F2C28C875FB00AB62AD /* PostBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F2B28C875FB00AB62AD /* PostBoard.swift */; };
+		24599F2F28C87B7A00AB62AD /* ScribbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F2E28C87B7A00AB62AD /* ScribbleView.swift */; };
+		24599F3128C87B8200AB62AD /* ScribbleBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F3028C87B8200AB62AD /* ScribbleBoard.swift */; };
+		24599F3328C88F5400AB62AD /* Scribble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F3228C88F5400AB62AD /* Scribble.swift */; };
+		24599F3528CD550100AB62AD /* SigninVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F3428CD550100AB62AD /* SigninVc.swift */; };
+		24599F3728CD562B00AB62AD /* SigninReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F3628CD562B00AB62AD /* SigninReactor.swift */; };
+		24599F3E28CD77F300AB62AD /* UnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24599F3D28CD77F300AB62AD /* UnderlineTextField.swift */; };
+		24599F4028D1C23C00AB62AD /* KOTRA-HOPE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24599F3F28D1C23C00AB62AD /* KOTRA-HOPE.ttf */; };
+		247F4A4428D2BDD20021E38C /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F4A4328D2BDD20021E38C /* Auth.swift */; };
+		24B5810F28D41E1C0082A1E2 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5810E28D41E1C0082A1E2 /* SceneCoordinator.swift */; };
+		24B5811328D421220082A1E2 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5811228D421220082A1E2 /* UIViewController+.swift */; };
+		24B5811528D42C3A0082A1E2 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5811428D42C3A0082A1E2 /* Transition.swift */; };
+		24DA4C3828D94D46003D6132 /* PostsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA4C3728D94D46003D6132 /* PostsVc.swift */; };
+		24DA4C3A28D94D66003D6132 /* PostsReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA4C3928D94D66003D6132 /* PostsReactor.swift */; };
+		24DA4C3C28D9AAF6003D6132 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA4C3B28D9AAF6003D6132 /* UIView+.swift */; };
+		24F1322F28DBF51E00F132A3 /* ScribbleVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F1322E28DBF51E00F132A3 /* ScribbleVc.swift */; };
+		24F1323128DBF55500F132A3 /* ScribbleReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F1323028DBF55500F132A3 /* ScribbleReactor.swift */; };
+		537FD32E2A359D14362FBF86 /* Pods_mohasem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8950A63F3FFF9786DB2598A /* Pods_mohasem.framework */; };
+		8B7F6BDB8479BCAD65AC6B54 /* Pods_mohasemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6983E14B82059BC93F016C5E /* Pods_mohasemTests.framework */; };
+		BD5D043C353C37B311E1A558 /* Pods_mohasem_mohasemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028A0146AC60FA7A20A13884 /* Pods_mohasem_mohasemUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +67,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		124C6439E0372C80C239AAB4 /* Pods_mohanoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mohanoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		028A0146AC60FA7A20A13884 /* Pods_mohasem_mohasemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mohasem_mohasemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0400D9AE3BDC23406FF8B5FA /* Pods-mohasem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohasem.release.xcconfig"; path = "Target Support Files/Pods-mohasem/Pods-mohasem.release.xcconfig"; sourceTree = "<group>"; };
+		0F0EF128F85E835F3B1C9BA9 /* Pods-mohasem-mohasemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohasem-mohasemUITests.debug.xcconfig"; path = "Target Support Files/Pods-mohasem-mohasemUITests/Pods-mohasem-mohasemUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		241390D328C1DD8500FA1810 /* mohasem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mohasem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		241390D628C1DD8500FA1810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		241390D828C1DD8500FA1810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,13 +90,38 @@
 		2413911D28C576B900FA1810 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
 		2413911F28C5772300FA1810 /* HomeReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReactor.swift; sourceTree = "<group>"; };
 		2413912128C577FE00FA1810 /* Scenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
-		2AA83451B4D1784EABC3161C /* Pods_mohano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mohano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24599F2128C625E800AB62AD /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		24599F2328C6263500AB62AD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		24599F2728C73E1300AB62AD /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		24599F2928C8224600AB62AD /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GroupView.swift; path = mohasem/Items/GroupView.swift; sourceTree = SOURCE_ROOT; };
+		24599F2B28C875FB00AB62AD /* PostBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBoard.swift; sourceTree = "<group>"; };
+		24599F2E28C87B7A00AB62AD /* ScribbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleView.swift; sourceTree = "<group>"; };
+		24599F3028C87B8200AB62AD /* ScribbleBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleBoard.swift; sourceTree = "<group>"; };
+		24599F3228C88F5400AB62AD /* Scribble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scribble.swift; sourceTree = "<group>"; };
+		24599F3428CD550100AB62AD /* SigninVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVc.swift; sourceTree = "<group>"; };
+		24599F3628CD562B00AB62AD /* SigninReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninReactor.swift; sourceTree = "<group>"; };
+		24599F3D28CD77F300AB62AD /* UnderlineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextField.swift; sourceTree = "<group>"; };
+		24599F3F28D1C23C00AB62AD /* KOTRA-HOPE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KOTRA-HOPE.ttf"; sourceTree = "<group>"; };
+		247F4A4328D2BDD20021E38C /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		24B5810E28D41E1C0082A1E2 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		24B5811228D421220082A1E2 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		24B5811428D42C3A0082A1E2 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		24DA4C3728D94D46003D6132 /* PostsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsVc.swift; sourceTree = "<group>"; };
+		24DA4C3928D94D66003D6132 /* PostsReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsReactor.swift; sourceTree = "<group>"; };
+		24DA4C3B28D9AAF6003D6132 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		24F1322E28DBF51E00F132A3 /* ScribbleVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleVc.swift; sourceTree = "<group>"; };
+		24F1323028DBF55500F132A3 /* ScribbleReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleReactor.swift; sourceTree = "<group>"; };
+		254A9053EBE0782EFA587264 /* Pods-mohasemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohasemTests.debug.xcconfig"; path = "Target Support Files/Pods-mohasemTests/Pods-mohasemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F6CC1BEAF50D17F2D4BD015 /* Pods-mohasem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohasem.debug.xcconfig"; path = "Target Support Files/Pods-mohasem/Pods-mohasem.debug.xcconfig"; sourceTree = "<group>"; };
 		3A9008017CEFC5B944CDDEF8 /* Pods-mohano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohano.release.xcconfig"; path = "Target Support Files/Pods-mohano/Pods-mohano.release.xcconfig"; sourceTree = "<group>"; };
+		6983E14B82059BC93F016C5E /* Pods_mohasemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mohasemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC5AF22851ADC59A7133943 /* Pods-mohano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohano.debug.xcconfig"; path = "Target Support Files/Pods-mohano/Pods-mohano.debug.xcconfig"; sourceTree = "<group>"; };
 		8D801429AD0E4129C3E47D42 /* Pods-mohano-mohanoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohano-mohanoUITests.debug.xcconfig"; path = "Target Support Files/Pods-mohano-mohanoUITests/Pods-mohano-mohanoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8950A63F3FFF9786DB2598A /* Pods_mohasem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mohasem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB642332F817A82F44C0A94 /* Pods-mohanoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohanoTests.debug.xcconfig"; path = "Target Support Files/Pods-mohanoTests/Pods-mohanoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA02E460F79074B083E20150 /* Pods-mohasem-mohasemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohasem-mohasemUITests.release.xcconfig"; path = "Target Support Files/Pods-mohasem-mohasemUITests/Pods-mohasem-mohasemUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F6B1F9756C45EADBEC924EAD /* Pods-mohano-mohanoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohano-mohanoUITests.release.xcconfig"; path = "Target Support Files/Pods-mohano-mohanoUITests/Pods-mohano-mohanoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F95AD0F89CF8AC704BC7CD4A /* Pods_mohano_mohanoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mohano_mohanoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1F90B66C326407A533336D /* Pods-mohasemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohasemTests.release.xcconfig"; path = "Target Support Files/Pods-mohasemTests/Pods-mohasemTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF4EF782A55BF789A9446429 /* Pods-mohanoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohanoTests.release.xcconfig"; path = "Target Support Files/Pods-mohanoTests/Pods-mohanoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D8F568AC45F3D845DBF4828 /* Pods_mohano.framework in Frameworks */,
+				537FD32E2A359D14362FBF86 /* Pods_mohasem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91FAC91AB1BD5FF3AA980DA3 /* Pods_mohanoTests.framework in Frameworks */,
+				8B7F6BDB8479BCAD65AC6B54 /* Pods_mohasemTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B6D0F08D806CA7B5DE85EB4 /* Pods_mohano_mohanoUITests.framework in Frameworks */,
+				BD5D043C353C37B311E1A558 /* Pods_mohasem_mohasemUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,9 +181,11 @@
 				2413910B28C1E00C00FA1810 /* Models */,
 				2413910A28C1E00600FA1810 /* ViewModels */,
 				2413910928C1DFFA00FA1810 /* ViewControllers */,
+				24B5810D28D327FD0082A1E2 /* Scene */,
+				247F4A4228D2BDB30021E38C /* Auth */,
 				2413910C28C1E02600FA1810 /* Items */,
-				2413910D28C1E03500FA1810 /* Miscs */,
-				2413911A28C3549600FA1810 /* Customs */,
+				2413911A28C3549600FA1810 /* Extensions */,
+				24599F3828CD5A1400AB62AD /* Fonts */,
 				241390D628C1DD8500FA1810 /* AppDelegate.swift */,
 				241390D828C1DD8500FA1810 /* SceneDelegate.swift */,
 				241390E228C1DD8600FA1810 /* Assets.xcassets */,
@@ -168,6 +218,9 @@
 			children = (
 				2413910E28C1E07C00FA1810 /* MainVc.swift */,
 				2413911D28C576B900FA1810 /* HomeVc.swift */,
+				24599F3428CD550100AB62AD /* SigninVc.swift */,
+				24DA4C3728D94D46003D6132 /* PostsVc.swift */,
+				24F1322E28DBF51E00F132A3 /* ScribbleVc.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -177,6 +230,9 @@
 			children = (
 				2413911028C1E09A00FA1810 /* MainReactor.swift */,
 				2413911F28C5772300FA1810 /* HomeReactor.swift */,
+				24599F3628CD562B00AB62AD /* SigninReactor.swift */,
+				24DA4C3928D94D66003D6132 /* PostsReactor.swift */,
+				24F1323028DBF55500F132A3 /* ScribbleReactor.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -184,8 +240,9 @@
 		2413910B28C1E00C00FA1810 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2413912128C577FE00FA1810 /* Scenes.swift */,
 				2413911428C3509F00FA1810 /* Weather.swift */,
+				24599F2328C6263500AB62AD /* Post.swift */,
+				24599F3228C88F5400AB62AD /* Scribble.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,32 +250,76 @@
 		2413910C28C1E02600FA1810 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				24599F2928C8224600AB62AD /* GroupView.swift */,
 				2413911228C3504C00FA1810 /* GreetingsView.swift */,
+				24599F3D28CD77F300AB62AD /* UnderlineTextField.swift */,
+				24599F2028C625CB00AB62AD /* Post */,
+				24599F2D28C87B4D00AB62AD /* Scribble */,
 			);
 			path = Items;
 			sourceTree = "<group>";
 		};
-		2413910D28C1E03500FA1810 /* Miscs */ = {
+		2413911A28C3549600FA1810 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				24599F2728C73E1300AB62AD /* Date+.swift */,
+				2413911B28C3549600FA1810 /* UIImageView+.swift */,
+				24B5811228D421220082A1E2 /* UIViewController+.swift */,
+				24DA4C3B28D9AAF6003D6132 /* UIView+.swift */,
 			);
-			path = Miscs;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		2413911A28C3549600FA1810 /* Customs */ = {
+		24599F2028C625CB00AB62AD /* Post */ = {
 			isa = PBXGroup;
 			children = (
-				2413911B28C3549600FA1810 /* UIImageView+.swift */,
+				24599F2128C625E800AB62AD /* PostView.swift */,
+				24599F2B28C875FB00AB62AD /* PostBoard.swift */,
 			);
-			path = Customs;
+			path = Post;
+			sourceTree = "<group>";
+		};
+		24599F2D28C87B4D00AB62AD /* Scribble */ = {
+			isa = PBXGroup;
+			children = (
+				24599F2E28C87B7A00AB62AD /* ScribbleView.swift */,
+				24599F3028C87B8200AB62AD /* ScribbleBoard.swift */,
+			);
+			path = Scribble;
+			sourceTree = "<group>";
+		};
+		24599F3828CD5A1400AB62AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				24599F3F28D1C23C00AB62AD /* KOTRA-HOPE.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		247F4A4228D2BDB30021E38C /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				247F4A4328D2BDD20021E38C /* Auth.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		24B5810D28D327FD0082A1E2 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2413912128C577FE00FA1810 /* Scenes.swift */,
+				24B5810E28D41E1C0082A1E2 /* SceneCoordinator.swift */,
+				24B5811428D42C3A0082A1E2 /* Transition.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 		AA5047CEB44B63B99B18430F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2AA83451B4D1784EABC3161C /* Pods_mohano.framework */,
-				F95AD0F89CF8AC704BC7CD4A /* Pods_mohano_mohanoUITests.framework */,
-				124C6439E0372C80C239AAB4 /* Pods_mohanoTests.framework */,
+				B8950A63F3FFF9786DB2598A /* Pods_mohasem.framework */,
+				028A0146AC60FA7A20A13884 /* Pods_mohasem_mohasemUITests.framework */,
+				6983E14B82059BC93F016C5E /* Pods_mohasemTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -232,6 +333,12 @@
 				F6B1F9756C45EADBEC924EAD /* Pods-mohano-mohanoUITests.release.xcconfig */,
 				CFB642332F817A82F44C0A94 /* Pods-mohanoTests.debug.xcconfig */,
 				FF4EF782A55BF789A9446429 /* Pods-mohanoTests.release.xcconfig */,
+				2F6CC1BEAF50D17F2D4BD015 /* Pods-mohasem.debug.xcconfig */,
+				0400D9AE3BDC23406FF8B5FA /* Pods-mohasem.release.xcconfig */,
+				0F0EF128F85E835F3B1C9BA9 /* Pods-mohasem-mohasemUITests.debug.xcconfig */,
+				EA02E460F79074B083E20150 /* Pods-mohasem-mohasemUITests.release.xcconfig */,
+				254A9053EBE0782EFA587264 /* Pods-mohasemTests.debug.xcconfig */,
+				FB1F90B66C326407A533336D /* Pods-mohasemTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -345,6 +452,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24599F4028D1C23C00AB62AD /* KOTRA-HOPE.ttf in Resources */,
 				241390E628C1DD8600FA1810 /* LaunchScreen.storyboard in Resources */,
 				241390E328C1DD8600FA1810 /* Assets.xcassets in Resources */,
 			);
@@ -373,15 +481,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mohano/Pods-mohano-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mohasem/Pods-mohasem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mohano/Pods-mohano-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mohasem/Pods-mohasem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mohano/Pods-mohano-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mohasem/Pods-mohasem-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D4B811214E22A122D4DA739 /* [CP] Check Pods Manifest.lock */ = {
@@ -399,7 +507,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mohanoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-mohasemTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -421,7 +529,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mohano-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-mohasem-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -443,7 +551,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mohano-mohanoUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-mohasem-mohasemUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -456,15 +564,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mohano-mohanoUITests/Pods-mohano-mohanoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mohasem-mohasemUITests/Pods-mohasem-mohasemUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mohano-mohanoUITests/Pods-mohano-mohanoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mohasem-mohasemUITests/Pods-mohasem-mohasemUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mohano-mohanoUITests/Pods-mohano-mohanoUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mohasem-mohasemUITests/Pods-mohasem-mohasemUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -474,16 +582,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24599F3328C88F5400AB62AD /* Scribble.swift in Sources */,
 				2413911128C1E09A00FA1810 /* MainReactor.swift in Sources */,
+				24DA4C3828D94D46003D6132 /* PostsVc.swift in Sources */,
+				24599F3528CD550100AB62AD /* SigninVc.swift in Sources */,
+				24F1322F28DBF51E00F132A3 /* ScribbleVc.swift in Sources */,
+				24B5810F28D41E1C0082A1E2 /* SceneCoordinator.swift in Sources */,
+				24599F2F28C87B7A00AB62AD /* ScribbleView.swift in Sources */,
+				24599F3E28CD77F300AB62AD /* UnderlineTextField.swift in Sources */,
+				24599F3128C87B8200AB62AD /* ScribbleBoard.swift in Sources */,
 				241390E128C1DD8500FA1810 /* mohano.xcdatamodeld in Sources */,
+				24599F2A28C8224600AB62AD /* GroupView.swift in Sources */,
 				2413912228C577FE00FA1810 /* Scenes.swift in Sources */,
 				241390D728C1DD8500FA1810 /* AppDelegate.swift in Sources */,
+				24599F3728CD562B00AB62AD /* SigninReactor.swift in Sources */,
+				24599F2428C6263500AB62AD /* Post.swift in Sources */,
 				2413912028C5772300FA1810 /* HomeReactor.swift in Sources */,
+				247F4A4428D2BDD20021E38C /* Auth.swift in Sources */,
 				2413911E28C576B900FA1810 /* HomeVc.swift in Sources */,
+				24599F2C28C875FB00AB62AD /* PostBoard.swift in Sources */,
+				24F1323128DBF55500F132A3 /* ScribbleReactor.swift in Sources */,
+				24DA4C3A28D94D66003D6132 /* PostsReactor.swift in Sources */,
+				24B5811328D421220082A1E2 /* UIViewController+.swift in Sources */,
+				24599F2828C73E1300AB62AD /* Date+.swift in Sources */,
 				2413910F28C1E07C00FA1810 /* MainVc.swift in Sources */,
 				2413911C28C3549600FA1810 /* UIImageView+.swift in Sources */,
 				241390D928C1DD8500FA1810 /* SceneDelegate.swift in Sources */,
+				24DA4C3C28D9AAF6003D6132 /* UIView+.swift in Sources */,
+				24B5811528D42C3A0082A1E2 /* Transition.swift in Sources */,
 				2413911328C3504C00FA1810 /* GreetingsView.swift in Sources */,
+				24599F2228C625E800AB62AD /* PostView.swift in Sources */,
 				2413911528C3509F00FA1810 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -648,7 +776,7 @@
 		};
 		2413910128C1DD8700FA1810 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DC5AF22851ADC59A7133943 /* Pods-mohano.debug.xcconfig */;
+			baseConfigurationReference = 2F6CC1BEAF50D17F2D4BD015 /* Pods-mohasem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -676,7 +804,7 @@
 		};
 		2413910228C1DD8700FA1810 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A9008017CEFC5B944CDDEF8 /* Pods-mohano.release.xcconfig */;
+			baseConfigurationReference = 0400D9AE3BDC23406FF8B5FA /* Pods-mohasem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -704,7 +832,7 @@
 		};
 		2413910428C1DD8700FA1810 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFB642332F817A82F44C0A94 /* Pods-mohanoTests.debug.xcconfig */;
+			baseConfigurationReference = 254A9053EBE0782EFA587264 /* Pods-mohasemTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -725,7 +853,7 @@
 		};
 		2413910528C1DD8700FA1810 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4EF782A55BF789A9446429 /* Pods-mohanoTests.release.xcconfig */;
+			baseConfigurationReference = FB1F90B66C326407A533336D /* Pods-mohasemTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -746,7 +874,7 @@
 		};
 		2413910728C1DD8700FA1810 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D801429AD0E4129C3E47D42 /* Pods-mohano-mohanoUITests.debug.xcconfig */;
+			baseConfigurationReference = 0F0EF128F85E835F3B1C9BA9 /* Pods-mohasem-mohasemUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -765,7 +893,7 @@
 		};
 		2413910828C1DD8700FA1810 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B1F9756C45EADBEC924EAD /* Pods-mohano-mohanoUITests.release.xcconfig */;
+			baseConfigurationReference = EA02E460F79074B083E20150 /* Pods-mohasem-mohasemUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

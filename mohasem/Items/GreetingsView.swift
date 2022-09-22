@@ -19,18 +19,17 @@ class GreetingsView: UIView {
         super.init(frame: frame)
         
         self.addSubview(profileImg)
-        profileImg.loadImage(profileUrl)
+        profileImg.loadImage(url: URL(string: profileUrl))
         profileImg.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(20)
             make.top.bottom.equalToSuperview()
             make.width.equalTo(50)
         }
         
-        DispatchQueue.main.async {
-            self.profileImg.layer.masksToBounds = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(200)) {
             self.profileImg.layer.cornerRadius = self.profileImg.frame.width / 2
+            self.profileImg.clipsToBounds = true
         }
-        
         
         self.addSubview(weatherImg)
         let weatherWidth: CGFloat = 40
