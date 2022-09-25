@@ -44,6 +44,7 @@
 		24DA4C3C28D9AAF6003D6132 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA4C3B28D9AAF6003D6132 /* UIView+.swift */; };
 		24F1322F28DBF51E00F132A3 /* ScribbleVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F1322E28DBF51E00F132A3 /* ScribbleVc.swift */; };
 		24F1323128DBF55500F132A3 /* ScribbleReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F1323028DBF55500F132A3 /* ScribbleReactor.swift */; };
+		24F1323428E06F5000F132A3 /* UIScrollview+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F1323328E06F5000F132A3 /* UIScrollview+.swift */; };
 		537FD32E2A359D14362FBF86 /* Pods_mohasem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8950A63F3FFF9786DB2598A /* Pods_mohasem.framework */; };
 		8B7F6BDB8479BCAD65AC6B54 /* Pods_mohasemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6983E14B82059BC93F016C5E /* Pods_mohasemTests.framework */; };
 		BD5D043C353C37B311E1A558 /* Pods_mohasem_mohasemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028A0146AC60FA7A20A13884 /* Pods_mohasem_mohasemUITests.framework */; };
@@ -111,6 +112,7 @@
 		24DA4C3B28D9AAF6003D6132 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		24F1322E28DBF51E00F132A3 /* ScribbleVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleVc.swift; sourceTree = "<group>"; };
 		24F1323028DBF55500F132A3 /* ScribbleReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleReactor.swift; sourceTree = "<group>"; };
+		24F1323328E06F5000F132A3 /* UIScrollview+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollview+.swift"; sourceTree = "<group>"; };
 		254A9053EBE0782EFA587264 /* Pods-mohasemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohasemTests.debug.xcconfig"; path = "Target Support Files/Pods-mohasemTests/Pods-mohasemTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F6CC1BEAF50D17F2D4BD015 /* Pods-mohasem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohasem.debug.xcconfig"; path = "Target Support Files/Pods-mohasem/Pods-mohasem.debug.xcconfig"; sourceTree = "<group>"; };
 		3A9008017CEFC5B944CDDEF8 /* Pods-mohano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mohano.release.xcconfig"; path = "Target Support Files/Pods-mohano/Pods-mohano.release.xcconfig"; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				2413911B28C3549600FA1810 /* UIImageView+.swift */,
 				24B5811228D421220082A1E2 /* UIViewController+.swift */,
 				24DA4C3B28D9AAF6003D6132 /* UIView+.swift */,
+				24F1323328E06F5000F132A3 /* UIScrollview+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -583,6 +586,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24599F3328C88F5400AB62AD /* Scribble.swift in Sources */,
+				24F1323428E06F5000F132A3 /* UIScrollview+.swift in Sources */,
 				2413911128C1E09A00FA1810 /* MainReactor.swift in Sources */,
 				24DA4C3828D94D46003D6132 /* PostsVc.swift in Sources */,
 				24599F3528CD550100AB62AD /* SigninVc.swift in Sources */,

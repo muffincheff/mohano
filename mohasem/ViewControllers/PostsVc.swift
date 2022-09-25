@@ -13,9 +13,11 @@ import RxCocoa
 class PostsVc: UIViewController, View {
     var disposeBag = DisposeBag()
     
-    let close = UIButton()
-    let more = UIButton()
-    let board = UIView()
+    let close = UIButton()              // '닫기' 버튼
+    let more = UIButton()               // '더보기' 버튼
+    let add = UIButton(type: .system)   // '추가' 버튼
+    let board = UIView()                // 스케쥴들이 표시될 UI
+    let scrollview = UIScrollView()
     let stackview = UIStackView()
 
     init(reactor: PostsReactor) {
@@ -43,12 +45,20 @@ class PostsVc: UIViewController, View {
             })
             .disposed(by: disposeBag)
         
+        // bottom 여부에 따라 '더보기' 버튼 hidden 설정
+        scrollview.rx.reachedBottom()
+            .subscribe(onNext: { [weak self] isReached in
+                print("isReached: \(isReached)")
+                self?.more.isHidden = !isReached
+            })
+            .disposed(by: disposeBag)
+        
         // state
         reactor.state
             .map { $0.posts }
             .distinctUntilChanged()
             .subscribe(onNext: { [weak self] posts in
-                // post 표시
+                // 스케쥴 표시
                 self?.stackview.arrangedSubviews.forEach({ $0.removeFromSuperview() })
                 
                 posts.forEach({
@@ -99,24 +109,12 @@ class PostsVc: UIViewController, View {
         vcTitle.text = "다음 스케쥴"
         vcTitle.font = UIFont.systemFont(ofSize: 26, weight: .bold)
         vcTitle.textColor = .white
-//        vcTitle.textAlignment = .center
         vcTitle.snp.makeConstraints { make in
             make.bottom.equalTo(board.snp.top)
             make.leading.equalToSuperview().offset(16)
             make.trailing.equalToSuperview().inset(16)
             make.height.equalTo(50)
         }
-        
-        // title under line
-//        let titleUnderline = UIView()
-//        board.addSubview(titleUnderline)
-//        titleUnderline.backgroundColor = .systemGray4
-//        titleUnderline.snp.makeConstraints { make in
-//            make.top.equalTo(vcTitle.snp.bottom).inset(6)
-//            make.leading.equalToSuperview().offset(10)
-//            make.trailing.equalToSuperview().inset(10)
-//            make.height.equalTo(1)
-//        }
 
         // close
         self.view.addSubview(close)
@@ -128,10 +126,8 @@ class PostsVc: UIViewController, View {
             make.trailing.equalToSuperview()
             make.width.height.equalTo(50)
         }
-        
        
         // scroll view
-        let scrollview = UIScrollView()
         board.addSubview(scrollview)
         scrollview.layer.cornerRadius = 20
         scrollview.showsHorizontalScrollIndicator = false
@@ -158,8 +154,8 @@ class PostsVc: UIViewController, View {
         // more
         board.addSubview(more)
         var moreConfig = UIButton.Configuration.plain()
-        var titleAttr = AttributedString.init("더 보기")
-            titleAttr.font = .systemFont(ofSize: 12, weight: .regular)
+        var titleAttr = AttributedString.init("더보기")
+        titleAttr.font = .systemFont(ofSize: 12, weight: .regular)
         moreConfig.attributedTitle = titleAttr
         moreConfig.imagePlacement = .bottom
         moreConfig.imagePadding = -4
@@ -173,19 +169,19 @@ class PostsVc: UIViewController, View {
             make.bottom.equalTo(self.view.safeAreaLayoutGuide).offset(26)
             make.height.equalTo(40)
         }
+        more.isHidden = true
         
-        // more gradient
-//        let gradientLayer = CAGradientLayer()
-//        gradientLayer.colors = [UIColor.clear.cgColor, UIColor.white.cgColor]
-//        gradientLayer.locations = [0.3]
-//        more.layer.addSublayer(gradientLayer)
-//
-//        Observable.just(())
-//            .delay(.milliseconds(100), scheduler: MainScheduler.instance)
-//            .subscribe { [weak self] _ in
-//                if let rect = self?.more.bounds { gradientLayer.frame = rect }
-//            }
-//            .disposed(by: disposeBag)
+        // add
+        board.addSubview(add)
+        add.tintColor = .white
+        add.setImage(UIImage(systemName: "plus", withConfiguration: UIImage.SymbolConfiguration(pointSize: 22, weight: .regular)), for: .normal)
+        add.backgroundColor = UIColor(red: 0, green: 207/255, blue: 208/255, alpha: 1).withAlphaComponent(0.8)
+        let addWidth: CGFloat = 50
+        add.layer.cornerRadius = addWidth / 2
+        add.snp.makeConstraints { make in
+            make.trailing.bottom.equalToSuperview().inset(20)
+            make.height.width.equalTo(addWidth)
+        }
     }
     
 
